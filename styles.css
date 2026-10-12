@@ -4,6 +4,7 @@
     --tertiary-color: #777777;
     --accent-color: #C4A66A;
     --text-color: #F0EDE6;
+    --accent-color: #f4daa6;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
     
     font-family: "DM Sans", sans-serif;
     font-size: 1rem;
+    font-weight: 200;
     color: var(--text-color);
     line-height: 1.5;
     margin: 0;
@@ -38,10 +40,23 @@ body {
 
 h1 {
     font-family: "Cormorant Garamond", serif;
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: var(--text-color);
     text-align: center;
     margin-top: 1rem;
+    font-weight: 200;
+}
+
+h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
 }
 
 subtitle {
@@ -67,7 +82,8 @@ subtitle {
 .nav-links a {
     color: var(--text-color);
     text-decoration: none;
-    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 20px;
 }
 
 .nav-links a:hover {
