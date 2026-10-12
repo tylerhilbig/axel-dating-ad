@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #111111;
+    --secondary-color: #242424;
+    --tertiary-color: #777777;
+    --accent-color: #C4A66A;
+    --text-color: #F0EDE6;
+}
+
+body {
+    background-image: linear-gradient(
+    var(--primary-color) 0%,
+    var(--secondary-color) 45%,
+    var(--tertiary-color) 100% 
+    );
+    
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.cormorant-garamond {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* Navigation */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
+    transform: scale(1.5, 0.8);
+}
