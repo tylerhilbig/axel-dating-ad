@@ -41,9 +41,18 @@ h1 {
     font-size: 3rem;
     color: var(--text-color);
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
+subtitle {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.3rem;
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 
 /* Navigation */
 .nav-links {

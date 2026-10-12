@@ -1,0 +1,42 @@
+.kitchen-section { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.kitchen-list { 
+    display: grid; 
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    gap: 10px; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; }
+
+.kitchen-list li img { 
+    display: block; 
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; }
+
+.kitchen-list li img:hover { 
+    transform: scale(1.03); 
+}
+
+@media (min-width: 600px) { 
+    .kitchen-list { 
+        grid-template-columns: 
+        repeat(2, minmax(0, 1fr)); 
+    } 
+}
+
+@media (min-width: 900px) { 
+    .kitchen-list { 
+        grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    } 
+}
+
+.kitchen-list li img:hover {
+    transform: scale(1.25);
+}
